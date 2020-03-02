@@ -18,7 +18,7 @@ void setup() {
 
 void loop() {
   client.reset();
-  test_int = client.get_http_int("http://silberworks.ru/sensor/sensor_state.php?k=fQhrzJ1PGC9SPvBmTeHu");
-  test_float = client.get_http_float("http://silberworks.ru/sensor/sensor_state.php?k=fQhrzJ1PGC9SPvBmTeHu");
+  test_int = client.get_http_int("http://silberworks.ru/sensor/sensor_state.php?k=");
+  test_float = client.get_http_float("http://silberworks.ru/sensor/sensor_state.php?k=");
   delya(1);
 }
